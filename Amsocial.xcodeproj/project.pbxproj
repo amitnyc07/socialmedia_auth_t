@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D58679DAA28B65760ABA3C1 /* Pods_Amsocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA433967A5649DB94260BA /* Pods_Amsocial.framework */; };
+		216ADAB4490AFEA700612FD3 /* Pods_AmsocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3924FB41E132C9804A502B9 /* Pods_AmsocialTests.framework */; };
+		9E09EC972857111D004450BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09EC962857111D004450BA /* AppDelegate.swift */; };
+		9E09EC992857111D004450BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09EC982857111D004450BA /* SceneDelegate.swift */; };
+		9E09EC9E2857111D004450BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E09EC9C2857111D004450BA /* Main.storyboard */; };
+		9E09ECA02857111F004450BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E09EC9F2857111F004450BA /* Assets.xcassets */; };
+		9E09ECA32857111F004450BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E09ECA12857111F004450BA /* LaunchScreen.storyboard */; };
+		9E09ECAE2857111F004450BA /* AmsocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECAD2857111F004450BA /* AmsocialTests.swift */; };
+		9E09ECB82857111F004450BA /* AmsocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECB72857111F004450BA /* AmsocialUITests.swift */; };
+		9E09ECBA2857111F004450BA /* AmsocialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECB92857111F004450BA /* AmsocialUITestsLaunchTests.swift */; };
+		9E09ECCC2857136F004450BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECCB2857136F004450BA /* LoginViewController.swift */; };
+		9E09ECCE2857137B004450BA /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECCD2857137B004450BA /* SigninViewController.swift */; };
+		9E09ECD028571387004450BA /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECCF28571387004450BA /* SignupViewController.swift */; };
+		9E09ECD2285714E6004450BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E09ECD1285714E6004450BA /* GoogleService-Info.plist */; };
+		9E09ECD428571622004450BA /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECD328571622004450BA /* SigninViewModel.swift */; };
+		9E09ECD628571634004450BA /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECD528571634004450BA /* SignupViewModel.swift */; };
+		9E09ECD8285716BD004450BA /* AMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09ECD7285716BD004450BA /* AMUser.swift */; };
+		F40C290B2374A76B45927A4B /* Pods_Amsocial_AmsocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B6FEEFBF606C681FB3720E /* Pods_Amsocial_AmsocialUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E09ECAA2857111F004450BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E09EC8B2857111D004450BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E09EC922857111D004450BA;
+			remoteInfo = Amsocial;
+		};
+		9E09ECB42857111F004450BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E09EC8B2857111D004450BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E09EC922857111D004450BA;
+			remoteInfo = Amsocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FA433967A5649DB94260BA /* Pods_Amsocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amsocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		110007015459EDDA0682BE27 /* Pods-Amsocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amsocial.release.xcconfig"; path = "Target Support Files/Pods-Amsocial/Pods-Amsocial.release.xcconfig"; sourceTree = "<group>"; };
+		31EFC9344A374249E402B6EB /* Pods-Amsocial-AmsocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amsocial-AmsocialUITests.release.xcconfig"; path = "Target Support Files/Pods-Amsocial-AmsocialUITests/Pods-Amsocial-AmsocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		423AF01093AD4647416F39A5 /* Pods-Amsocial-AmsocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amsocial-AmsocialUITests.debug.xcconfig"; path = "Target Support Files/Pods-Amsocial-AmsocialUITests/Pods-Amsocial-AmsocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC40937B2CFD86C595FC1F1 /* Pods-Amsocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amsocial.debug.xcconfig"; path = "Target Support Files/Pods-Amsocial/Pods-Amsocial.debug.xcconfig"; sourceTree = "<group>"; };
+		83F692CF4FF2D0FC50CD9742 /* Pods-AmsocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmsocialTests.release.xcconfig"; path = "Target Support Files/Pods-AmsocialTests/Pods-AmsocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		96B6FEEFBF606C681FB3720E /* Pods_Amsocial_AmsocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amsocial_AmsocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09EC932857111D004450BA /* Amsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09EC962857111D004450BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E09EC982857111D004450BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E09EC9D2857111D004450BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E09EC9F2857111F004450BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E09ECA22857111F004450BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E09ECA42857111F004450BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E09ECA92857111F004450BA /* AmsocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmsocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09ECAD2857111F004450BA /* AmsocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmsocialTests.swift; sourceTree = "<group>"; };
+		9E09ECB32857111F004450BA /* AmsocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmsocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09ECB72857111F004450BA /* AmsocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmsocialUITests.swift; sourceTree = "<group>"; };
+		9E09ECB92857111F004450BA /* AmsocialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmsocialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E09ECCB2857136F004450BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E09ECCD2857137B004450BA /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		9E09ECCF28571387004450BA /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9E09ECD1285714E6004450BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E09ECD328571622004450BA /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
+		9E09ECD528571634004450BA /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		9E09ECD7285716BD004450BA /* AMUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMUser.swift; sourceTree = "<group>"; };
+		E3924FB41E132C9804A502B9 /* Pods_AmsocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmsocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4632B1A794C6E3D63CB85AE /* Pods-AmsocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmsocialTests.debug.xcconfig"; path = "Target Support Files/Pods-AmsocialTests/Pods-AmsocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E09EC902857111D004450BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D58679DAA28B65760ABA3C1 /* Pods_Amsocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E09ECA62857111F004450BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216ADAB4490AFEA700612FD3 /* Pods_AmsocialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E09ECB02857111F004450BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40C290B2374A76B45927A4B /* Pods_Amsocial_AmsocialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72DA4FE60A9474891225C22B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01FA433967A5649DB94260BA /* Pods_Amsocial.framework */,
+				96B6FEEFBF606C681FB3720E /* Pods_Amsocial_AmsocialUITests.framework */,
+				E3924FB41E132C9804A502B9 /* Pods_AmsocialTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C2A80A4EA54F407C1D23462 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AC40937B2CFD86C595FC1F1 /* Pods-Amsocial.debug.xcconfig */,
+				110007015459EDDA0682BE27 /* Pods-Amsocial.release.xcconfig */,
+				423AF01093AD4647416F39A5 /* Pods-Amsocial-AmsocialUITests.debug.xcconfig */,
+				31EFC9344A374249E402B6EB /* Pods-Amsocial-AmsocialUITests.release.xcconfig */,
+				F4632B1A794C6E3D63CB85AE /* Pods-AmsocialTests.debug.xcconfig */,
+				83F692CF4FF2D0FC50CD9742 /* Pods-AmsocialTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E09EC8A2857111D004450BA = {
+			isa = PBXGroup;
+			children = (
+				9E09EC952857111D004450BA /* Amsocial */,
+				9E09ECAC2857111F004450BA /* AmsocialTests */,
+				9E09ECB62857111F004450BA /* AmsocialUITests */,
+				9E09EC942857111D004450BA /* Products */,
+				7C2A80A4EA54F407C1D23462 /* Pods */,
+				72DA4FE60A9474891225C22B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E09EC942857111D004450BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E09EC932857111D004450BA /* Amsocial.app */,
+				9E09ECA92857111F004450BA /* AmsocialTests.xctest */,
+				9E09ECB32857111F004450BA /* AmsocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E09EC952857111D004450BA /* Amsocial */ = {
+			isa = PBXGroup;
+			children = (
+				9E09EC962857111D004450BA /* AppDelegate.swift */,
+				9E09EC982857111D004450BA /* SceneDelegate.swift */,
+				9E09ECC72857135A004450BA /* Classes */,
+				9E09ECC62857135A004450BA /* Resources */,
+				9E09EC9C2857111D004450BA /* Main.storyboard */,
+				9E09EC9F2857111F004450BA /* Assets.xcassets */,
+				9E09ECA12857111F004450BA /* LaunchScreen.storyboard */,
+				9E09ECA42857111F004450BA /* Info.plist */,
+				9E09ECD1285714E6004450BA /* GoogleService-Info.plist */,
+			);
+			path = Amsocial;
+			sourceTree = "<group>";
+		};
+		9E09ECAC2857111F004450BA /* AmsocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E09ECAD2857111F004450BA /* AmsocialTests.swift */,
+			);
+			path = AmsocialTests;
+			sourceTree = "<group>";
+		};
+		9E09ECB62857111F004450BA /* AmsocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E09ECB72857111F004450BA /* AmsocialUITests.swift */,
+				9E09ECB92857111F004450BA /* AmsocialUITestsLaunchTests.swift */,
+			);
+			path = AmsocialUITests;
+			sourceTree = "<group>";
+		};
+		9E09ECC62857135A004450BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E09ECC72857135A004450BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E09ECC82857135A004450BA /* Controllers */,
+				9E09ECC92857135A004450BA /* Models */,
+				9E09ECCA2857135A004450BA /* ViewModels */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E09ECC82857135A004450BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E09ECCB2857136F004450BA /* LoginViewController.swift */,
+				9E09ECCD2857137B004450BA /* SigninViewController.swift */,
+				9E09ECCF28571387004450BA /* SignupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9E09ECC92857135A004450BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E09ECD7285716BD004450BA /* AMUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E09ECCA2857135A004450BA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E09ECD328571622004450BA /* SigninViewModel.swift */,
+				9E09ECD528571634004450BA /* SignupViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E09EC922857111D004450BA /* Amsocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E09ECBD2857111F004450BA /* Build configuration list for PBXNativeTarget "Amsocial" */;
+			buildPhases = (
+				1BA927EA41FB30C0F1D4D81F /* [CP] Check Pods Manifest.lock */,
+				9E09EC8F2857111D004450BA /* Sources */,
+				9E09EC902857111D004450BA /* Frameworks */,
+				9E09EC912857111D004450BA /* Resources */,
+				321BF9398ED4FDDA8859D1F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amsocial;
+			productName = Amsocial;
+			productReference = 9E09EC932857111D004450BA /* Amsocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E09ECA82857111F004450BA /* AmsocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E09ECC02857111F004450BA /* Build configuration list for PBXNativeTarget "AmsocialTests" */;
+			buildPhases = (
+				78FF00F32F1361E756F54CD8 /* [CP] Check Pods Manifest.lock */,
+				9E09ECA52857111F004450BA /* Sources */,
+				9E09ECA62857111F004450BA /* Frameworks */,
+				9E09ECA72857111F004450BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E09ECAB2857111F004450BA /* PBXTargetDependency */,
+			);
+			name = AmsocialTests;
+			productName = AmsocialTests;
+			productReference = 9E09ECA92857111F004450BA /* AmsocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E09ECB22857111F004450BA /* AmsocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E09ECC32857111F004450BA /* Build configuration list for PBXNativeTarget "AmsocialUITests" */;
+			buildPhases = (
+				A0AC88A1971A41287CD488DE /* [CP] Check Pods Manifest.lock */,
+				9E09ECAF2857111F004450BA /* Sources */,
+				9E09ECB02857111F004450BA /* Frameworks */,
+				9E09ECB12857111F004450BA /* Resources */,
+				CC8BF3F1EF1A5A8598C842BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E09ECB52857111F004450BA /* PBXTargetDependency */,
+			);
+			name = AmsocialUITests;
+			productName = AmsocialUITests;
+			productReference = 9E09ECB32857111F004450BA /* AmsocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E09EC8B2857111D004450BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9E09EC922857111D004450BA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					9E09ECA82857111F004450BA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9E09EC922857111D004450BA;
+					};
+					9E09ECB22857111F004450BA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9E09EC922857111D004450BA;
+					};
+				};
+			};
+			buildConfigurationList = 9E09EC8E2857111D004450BA /* Build configuration list for PBXProject "Amsocial" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E09EC8A2857111D004450BA;
+			productRefGroup = 9E09EC942857111D004450BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E09EC922857111D004450BA /* Amsocial */,
+				9E09ECA82857111F004450BA /* AmsocialTests */,
+				9E09ECB22857111F004450BA /* AmsocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E09EC912857111D004450BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E09ECA32857111F004450BA /* LaunchScreen.storyboard in Resources */,
+				9E09ECD2285714E6004450BA /* GoogleService-Info.plist in Resources */,
+				9E09ECA02857111F004450BA /* Assets.xcassets in Resources */,
+				9E09EC9E2857111D004450BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E09ECA72857111F004450BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E09ECB12857111F004450BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BA927EA41FB30C0F1D4D81F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amsocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		321BF9398ED4FDDA8859D1F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amsocial/Pods-Amsocial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amsocial/Pods-Amsocial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amsocial/Pods-Amsocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FF00F32F1361E756F54CD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmsocialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0AC88A1971A41287CD488DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amsocial-AmsocialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8BF3F1EF1A5A8598C842BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amsocial-AmsocialUITests/Pods-Amsocial-AmsocialUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amsocial-AmsocialUITests/Pods-Amsocial-AmsocialUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amsocial-AmsocialUITests/Pods-Amsocial-AmsocialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E09EC8F2857111D004450BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E09ECD428571622004450BA /* SigninViewModel.swift in Sources */,
+				9E09ECCE2857137B004450BA /* SigninViewController.swift in Sources */,
+				9E09ECCC2857136F004450BA /* LoginViewController.swift in Sources */,
+				9E09ECD628571634004450BA /* SignupViewModel.swift in Sources */,
+				9E09ECD8285716BD004450BA /* AMUser.swift in Sources */,
+				9E09ECD028571387004450BA /* SignupViewController.swift in Sources */,
+				9E09EC972857111D004450BA /* AppDelegate.swift in Sources */,
+				9E09EC992857111D004450BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E09ECA52857111F004450BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E09ECAE2857111F004450BA /* AmsocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E09ECAF2857111F004450BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E09ECBA2857111F004450BA /* AmsocialUITestsLaunchTests.swift in Sources */,
+				9E09ECB82857111F004450BA /* AmsocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E09ECAB2857111F004450BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E09EC922857111D004450BA /* Amsocial */;
+			targetProxy = 9E09ECAA2857111F004450BA /* PBXContainerItemProxy */;
+		};
+		9E09ECB52857111F004450BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E09EC922857111D004450BA /* Amsocial */;
+			targetProxy = 9E09ECB42857111F004450BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E09EC9C2857111D004450BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E09EC9D2857111D004450BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E09ECA12857111F004450BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E09ECA22857111F004450BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E09ECBB2857111F004450BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E09ECBC2857111F004450BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E09ECBE2857111F004450BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC40937B2CFD86C595FC1F1 /* Pods-Amsocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amsocial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amtest.amsocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E09ECBF2857111F004450BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110007015459EDDA0682BE27 /* Pods-Amsocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amsocial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amtest.amsocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E09ECC12857111F004450BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4632B1A794C6E3D63CB85AE /* Pods-AmsocialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.webview.AmsocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amsocial.app/Amsocial";
+			};
+			name = Debug;
+		};
+		9E09ECC22857111F004450BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F692CF4FF2D0FC50CD9742 /* Pods-AmsocialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.webview.AmsocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amsocial.app/Amsocial";
+			};
+			name = Release;
+		};
+		9E09ECC42857111F004450BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423AF01093AD4647416F39A5 /* Pods-Amsocial-AmsocialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.webview.AmsocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Amsocial;
+			};
+			name = Debug;
+		};
+		9E09ECC52857111F004450BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EFC9344A374249E402B6EB /* Pods-Amsocial-AmsocialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.webview.AmsocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Amsocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E09EC8E2857111D004450BA /* Build configuration list for PBXProject "Amsocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E09ECBB2857111F004450BA /* Debug */,
+				9E09ECBC2857111F004450BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E09ECBD2857111F004450BA /* Build configuration list for PBXNativeTarget "Amsocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E09ECBE2857111F004450BA /* Debug */,
+				9E09ECBF2857111F004450BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E09ECC02857111F004450BA /* Build configuration list for PBXNativeTarget "AmsocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E09ECC12857111F004450BA /* Debug */,
+				9E09ECC22857111F004450BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E09ECC32857111F004450BA /* Build configuration list for PBXNativeTarget "AmsocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E09ECC42857111F004450BA /* Debug */,
+				9E09ECC52857111F004450BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E09EC8B2857111D004450BA /* Project object */;
+}
